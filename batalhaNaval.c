@@ -29,7 +29,9 @@ int main() {
         printf("Navio V: (%d, %d)\n", i, 6);
     }
 
-    // 0 0 1 0 0
+    // Exibir o tabuleiro com os navios posicionados
+    printf("\nTabuleiro:\n");
+    exibir_tabuleiro(tabuleiro);
 
     return 0;
 }
